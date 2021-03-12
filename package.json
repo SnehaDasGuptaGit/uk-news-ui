@@ -1,0 +1,32 @@
+{
+  "name": "uk-news-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnehaDasGuptaGit/uk-news-ui.git"
+  },
+  "author": "sneha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnehaDasGuptaGit/uk-news-ui/issues"
+  },
+  "homepage": "https://github.com/SnehaDasGuptaGit/uk-news-ui#readme"
+}
