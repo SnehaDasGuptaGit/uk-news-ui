@@ -1,8 +1,7 @@
-angular.module('angularjsExampleApp')
+angular.module('newsApp')
 .controller('ServiceCtrl', [
     '$scope',
     function($scope) {
-        console.log('Loaded.');
         $scope.message = 'Hello World Test';
     }
 ]);

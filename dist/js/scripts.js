@@ -37865,7 +37865,7 @@ function ngViewFillContentFactory($compile, $controller, $route) {
 
 })(window, window.angular);
 
-angular.module('angularjsExampleApp', [
+angular.module('newsApp', [
   'ngRoute'
 ])
 .config([
@@ -37878,11 +37878,10 @@ angular.module('angularjsExampleApp', [
           });
   }
 ]);
-angular.module('angularjsExampleApp')
+angular.module('newsApp')
 .controller('ServiceCtrl', [
     '$scope',
     function($scope) {
-        console.log('Loaded.');
         $scope.message = 'Hello World Test';
     }
 ]);

@@ -4,11 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "resolutions": {
-    "graceful-fs": "^4.2.4"
   },
   "dependencies": {
     "angular": "^1.6.6",

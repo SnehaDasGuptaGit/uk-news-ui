@@ -1,4 +1,4 @@
-angular.module('angularjsExampleApp', [
+angular.module('newsApp', [
   'ngRoute'
 ])
 .config([
