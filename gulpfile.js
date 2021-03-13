@@ -40,6 +40,7 @@ gulp.task('build', function() {
 gulp.task('browser-sync', function() {
     browserSync.init(null, {
         open: false,
+        port: 5000,
         server: {
             baseDir: 'dist',
         }
