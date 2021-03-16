@@ -12,7 +12,6 @@ angular.module('newsApp')
         })
         .then(function successCallback(response) {
               $scope.articles = response.data.articles;
-              console.log($scope.articles)
         }, function errorCallback(error) {
                 console.log(error);
         });
